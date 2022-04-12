@@ -1,16 +1,29 @@
 # survey_app
 
-A new Flutter project.
+A customer service survey and feedback app that uses Flutter, an open source framework by Google to accept input from customers and appropriately display a screen of text.
 
-## Getting Started
+## What does it do?
+Creates a list of Six multiple choice questions and their answers as ratings out of 5. The App accepts user input and accordingly outputs the following on the final screen. At the end according to the total score calculated, shows different colors on the screen as follows. 
 
-This project is a starting point for a Flutter application.
+Score | Color of Text | Text Displayed
 
-A few resources to get you started if this is your first Flutter project:
+00 - 10 -> Red -> We are sorry for your inconvenience
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+11 - 20 -> Yellow -> Hope we serve you better next time
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+21 - 30 -> Green -> We hope you come back next time.
+
+The last screen also contains a trigger to reset the app to the starting question.
+The app uses the Slider widget to accept inputs from the user.
+
+## A video recording of the Working of the App
+
+https://drive.google.com/file/d/1biTz5cNcSbw7I5JoiO38xxVykdq60NtE/view?usp=sharing
+
+
+
+
+
+
+
+
