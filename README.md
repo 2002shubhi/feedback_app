@@ -1,6 +1,6 @@
 # survey_app
 
-A customer service survey and feedback app that uses Flutter, an open source framework by Google to accept input from customers and appropriately display a screen of text.
+A customer service survey and feedback app that uses Flutter, an open source framework by Google to accept input from customers and appropriately display a screen of text from the company/service as an output.
 
 ## What does it do?
 Creates a list of Six multiple choice questions and their answers as ratings out of 5. The App accepts user input and accordingly outputs the following on the final screen. At the end according to the total score calculated, shows different colors on the screen as follows. 
